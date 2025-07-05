@@ -1,0 +1,33 @@
+The Bank Transaction Categorizer with AutoML is a FinTech-focused machine learning project that automatically classifies banking transactions into predefined categories such as groceries, utilities, entertainment, travel, and more. Built using Auto-sklearn, Pandas, and Streamlit, this solution streamlines the analysis of customer spending behavior and generates actionable financial summaries.
+
+The project uses transaction descriptions (often in raw text form) as the primary input. These are preprocessed using basic NLP techniques (e.g., lowercasing, removing special characters, tokenization), and then converted into numerical features. With the help of AutoML, the most optimal classification model is selected and trained without manual hyperparameter tuning.
+
+A key feature of this system is its Streamlit dashboard, which allows users to:
+
+Upload a CSV file containing transaction data
+
+Automatically categorize each transaction
+
+Visualize spending breakdowns by category and time period
+
+Generate monthly summary reports
+
+The entire pipeline is designed to be user-friendly and deployable, making it suitable for integration into personal finance tools or digital banking dashboards.
+
+🔧 Tech Stack:
+AutoML: Auto-sklearn for automated model selection
+
+Pandas: Data preprocessing and manipulation
+
+Streamlit: Frontend dashboard and user interaction
+
+💡 Key Highlights:
+Uses NLP for parsing and transforming transaction text
+
+Achieves high accuracy in classifying transactions across multiple domains
+
+Modular design, easy to extend to support multi-bank formats
+
+Generates visual insights (bar charts, pie charts, tables) for better financial awareness
+
+This project demonstrates core data science engineering skills like data preprocessing, automation of ML workflows, feature engineering, and real-time deployment, making it an excellent fit for financial analytics applications.
